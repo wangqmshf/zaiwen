@@ -52,7 +52,7 @@ print(response)
 ### langchain使用方式
 需要安装langchain
 ```
-$ pip install 需要安装langchain
+$ pip install langchain
 ```
 ```
 from zaiwen.zaiwen_llm import ZaiWenLLM
