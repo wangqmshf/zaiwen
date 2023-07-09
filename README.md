@@ -1,10 +1,13 @@
 # 在问（zaiwen） API
 
 
-在问[https://www.zaiwen.top/](https://www.zaiwen.top/)API
+在问 [https://www.zaiwen.top/](https://www.zaiwen.top/) API。在问api python client,类似openai client,集成langchain,方便大家学习课程，开发应用。
 
+
+## 优势
 1. 不需要代理
 2. 不需要api key
+3. 兼容修改后的接口
 
 
 ## 设计
