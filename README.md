@@ -20,8 +20,9 @@ sequenceDiagram
    在问->>+在问: 修改响应
    在问->>+用户: 返回响应
 ```
-### request使用方式
 
+### request使用方式
+url从浏览器查看
 ```
 import requests
 
@@ -43,7 +44,7 @@ from zaiwen.get_completion import get_completion
 prompt = f"""
 你好
 """
-response = get_completion(prompt)
+response = get_completion(prompt, url="https://www.13042332817.top")
 print(response)
 
 ```

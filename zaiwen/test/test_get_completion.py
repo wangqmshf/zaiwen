@@ -12,5 +12,5 @@ prompt = f"""
 ```{text}```
 """
 # 指令内容，使用 ``` 来分隔指令和待总结的内容
-response = get_completion(prompt)
+response = get_completion(prompt, url="https://www.13042332817.top")
 print(response)

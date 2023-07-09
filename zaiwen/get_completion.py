@@ -1,13 +1,11 @@
 import requests
 
 
-def get_completion(prompt, model="v3.5"):
-    '''
+def get_completion(prompt, model="v3.5", url="https://www.13042332817.top"):
+    """
     prompt: 对应的提示
     model: 调用的模型，默认为 "v3.5"
-    '''
-
-    url = "https://www.13042332817.top"
+    """
 
     # url = "https://www.gaosijiaoyu.cn"
     resource = "/message"
