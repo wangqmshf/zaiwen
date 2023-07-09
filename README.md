@@ -67,6 +67,9 @@ $ pip install zaiwen
     1. 流式传输
     2. 更多API例子,chat 模式
     3. langchain 集成例子
+    4. 实现转发服务,兼容现有openai应用
+       4.1 用户=>转发服务=>在问
+       4.2 用户=>转发服务=>openai
 ### License
 
 [MIT](LICENSE)
