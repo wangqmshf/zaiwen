@@ -79,4 +79,4 @@ $ pip install zaiwen
        4.2 用户=>转发服务=>openai
 ### License
 
-[MIT](LICENSE)
+[Apache](LICENSE)
