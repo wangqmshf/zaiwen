@@ -17,7 +17,7 @@ sequenceDiagram
    在问->>+在问: 添加key,修改请求
    在问->>+OpenAI: 发送请求
    OpenAI->>+在问: 返回响应
-   在问->>+在问: 添加key,修改响应
+   在问->>+在问: 修改响应
    在问->>+用户: 返回响应
 ```
 ### request使用方式
@@ -49,7 +49,10 @@ print(response)
 ```
 
 ### langchain使用方式
-
+需要安装langchain
+```
+$ pip install 需要安装langchain
+```
 ```
 from zaiwen.zaiwen_llm import ZaiWenLLM
 
@@ -67,7 +70,7 @@ $ pip install zaiwen
     1. 流式传输
     2. 更多API例子,chat 模式
     3. langchain 集成例子
-    4. 实现转发服务,兼容现有openai应用
+    4. 实现转发服务,兼容现有openai应用,只修改base url即可
        4.1 用户=>转发服务=>在问
        4.2 用户=>转发服务=>openai
 ### License
